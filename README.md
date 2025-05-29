@@ -58,8 +58,8 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 
 ## Inicialización Quanser y Simulink
 
-1. **Inicio del modelo**  
-- Crea un nuevo modelo vacío en Simulink.
+### 1.1 Conexión Simulink y Quanser
+1. **Crea un nuevo modelo vacío en Simulink.**
 
 2. **Acceso a librerías** 
 - Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
@@ -79,6 +79,10 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 - Activa la casilla **Active during normal simulation**
 - Confirma con **OK**
 
+6. Accede a Model Settings (Ctrl + E) y selecciona un solver de paso fijo (Fixed-step). Ajusta el tiempo de muestreo a 0.001 segundos (1 ms) y configura el modelo en modo discreto. Esta configuración es necesaria porque los bloques de Quanser requieren un sistema de tiempo discreto para su correcto funcionamiento, garantizando alta precisión temporal y un rendimiento óptimo.
+
+
+### 1.2 Arranque de motor
 
 
 
