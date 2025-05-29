@@ -110,11 +110,11 @@ $$G_{2} = \frac{7268e^{-0.0035s}}{0.1245 + 1}$$
 
 - Función de Transferencia - Posición
   
-$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245^2 + s}$$
+$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245s^2 + s}$$
 
 Una vez se obtienen la funciones de transferencia se procede a comparar la función resultante con la salida del sistema, como se observa a continuación.
 
-<img src="sf_Current.png" alt="Corriente" width="450">
+<img src="Iden_Ta.png" alt="Corriente" width="450">
 Figura 7. Identificación de la planta
 
 <img src="sf_Current.png" alt="Corriente" width="450">
