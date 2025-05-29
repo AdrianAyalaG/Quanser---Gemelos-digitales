@@ -79,8 +79,8 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 6. Accede a Model Settings (Ctrl + E) y selecciona un solver de paso fijo (Fixed-step). Ajusta el tiempo de muestreo a 0.001 segundos (1 ms) y configura el modelo en modo discreto. Esta configuración es necesaria porque los bloques de Quanser requieren un sistema de tiempo discreto para su correcto funcionamiento, garantizando alta precisión temporal y un rendimiento óptimo.
 
 
-### 1.2 Arranque de motor
-
+### 1.2 Arranque de motor y lectura de sensores
+Para leer y visualizar las señales de corriente (A), velocidad (counts/s) y posición (pulsos), se debe utilizar el bloque ***HIL Read TimeBase***. Por otro lado, el arranque del motor puede controlarse mediante distintas señales de entrada, como rampa, escalón o constante, las cuales deben conectarse al bloque ***HIL Write Analog***. Una vez seleccionado este bloque, es necesario configurarlo especificando la placa de hardware a la que se vinculará el gemelo digital.
 
 
 
