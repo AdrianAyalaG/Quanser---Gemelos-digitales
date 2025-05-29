@@ -89,7 +89,6 @@ En el bloque ***HIL Read TimeBase*** se encuentra por defecto el sensor de corri
 <img src="Arranque.png" alt="Arranque" width="500">
 Figura 5. Arranque y lectura de sensores - Qube 2
 
-
 2.2 Alertas a tener en cuenta
 
 El bloque ***HIL Read Timebase*** incluye alertas críticas (***Digital channels***) relacionadas con el funcionamiento del sistema de control en tiempo real. Entre ellas, *Amplifier Fault* señala un fallo en el amplificador de potencia, que puede deberse a sobrecalentamiento o problemas eléctricos; *Motor Stall Detected* indica que el motor se ha detenido abruptamente, generalmente por sobrecarga o bloqueo mecánico; y *Motor Stall Error* refleja un error persistente, a menudo vinculado a configuraciones incorrectas o fallos en los sensores, provocando el detenimiento del sistema y generando un analisis de errores. 
@@ -97,6 +96,23 @@ El bloque ***HIL Read Timebase*** incluye alertas críticas (***Digital channels
 <img src="Alert.png" alt="Alerta" width="400">
 Figura 6. Alertas criticas - Qube 2
 
+
+## 💡Ejemplo:
+A continuación se desarrolla un lazo de control abierto mediante el método Cascada y de Austin. Para realizar el control cascada del Qube 2 Motor DC se realiza la identificación de la planta, empleando los métodos de identificación usados a lo largo del curso, dando como resultado las siguientes funciones de transferencia:
+- Función de Transferencia - Corriente
+  
+$$G_{2} = \frac{0.008852e^{-0.0028s}}{0.0003s + 1}$$
+
+- Función de Transferencia - Velocdidad
+  
+$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245 + 1}$$
+
+
+- Función de Transferencia - Posición
+  
+$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245^2 + s}$$
+
+Una vez identificada la planta se realiza el método de ITAE
 
 
 
