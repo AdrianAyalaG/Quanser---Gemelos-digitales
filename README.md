@@ -58,27 +58,27 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 
 ## Inicialización Quanser y Simulink
 
-1. **Inicio del modelo**
-Ejecuta MATLAB y crea un nuevo modelo vacío en Simulink para comenzar.
+1. **Inicio del modelo**  
+- Crea un nuevo modelo vacío en Simulink.
 
-2. **Acceso a librerías**
-Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
+2. **Acceso a librerías** 
+- Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
 
 3. **Localización de componentes QUARC**
-Navega hasta la sección:
-QUARC Targets → Data Acquisition → Generic → Configuration
+- QUARC Targets → Data Acquisition → Generic → Configuration
 
 4. **Inserción del bloque**
-Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
+- Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
 
 5. **Configuración inicial**
-Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
+- Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
 
 - Selecciona qube_servo2_usb en Board type
 - Presiona Defaults para cargar configuraciones predeterminadas
 - Especifica *0@tcpip://localhost:18920* en Board identifier (para simulación virtual con disco)
-- Activa la casilla Active during normal simulation
+- Activa la casilla **Active during normal simulation**
 - Confirma con **OK**
+
 
 
 
