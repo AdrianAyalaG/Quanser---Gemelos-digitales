@@ -45,12 +45,16 @@ A continuación se detallan los parámetros que se medirán durante las próxima
 | **Caracteristicas** | **Valores** |
 |---------------|-----------------------------------------------|
 |       Nominal Input Voltaje       |                       18 V                       |
-|       Nominal Torque      |                       22.0 Nm                       |
+|       Nominal Torque      |                       22.0 mmNm                       |
+|      No-load Speed      |                       4000 RPM                       |
 |      Nominal Speed      |                       3050 RPM                       |
+|      No-load current     |                      0.022 A                     |
 |      Nominal Current      |                      0.540 A                     |
 
 Tabla 1. Parametros - Qube-Servo 3
 
+### Formas de Conexión
+Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a distintos niveles de experiencia y requerimientos técnicos. La opción más común es mediante MATLAB/Simulink, favorecida por las librerías que simplifican el desarrollo de algoritmos de control. Para quienes prefieren un entorno más gráfico, la conexión a través de LabVIEW proporciona una interfaz intuitiva para prototipado y visualización de datos. Finalmente, tambine brinda la posibilidad de realizar una integración con sistemas embebidos, lo que requiere mayor configuración.
 
 ## Inicialización Quanser y Simulink
 
