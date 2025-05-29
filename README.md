@@ -37,6 +37,12 @@ Es una plataforma educativa fundamental para el estudio práctico de control de 
 Figura 4. Gemelo Digital -  Ball and Beam
 
 
+### Informacion Importante
+Quanser incluye manuales de usuario detallados con cada equipo adquirido. En este caso, hemos analizado específicamente el manual del Qube-Servo 3, ya que será nuestro sistema de trabajo tanto en su versión física como digital. Es importante destacar que el gemelo digital utilizado corresponde al Qube-Servo 2, cuya principal diferencia con el modelo físico radica en la ausencia del péndulo invertido. Sin embargo, esta limitación se resuelve fácilmente mediante el montaje virtual del péndulo en Simulink Multibody, lo que permite replicar todas las funcionalidades del sistema físico en el entorno de simulación.
+
+
+
+
 ## Inicialización Quanser y Simulink
 
 
