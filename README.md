@@ -16,14 +16,9 @@ Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan 
 ### Qube 2 - Motor DC
 Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Con este sistema se puede validar algoritmos de control clásicos y avanzados, como PID, control por retroalimentación de estadoso o adaptativo. 
 
-![Complemento QUARC matlab](
+![Figura 1]()
 
-*Figura 1: Complemento Quanser interactive labs para gemelos digitales*
-
-
-
-
-
+Figura 1. Gemelo Digital - Qube 2 Motor DC
 
 
 
