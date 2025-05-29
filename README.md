@@ -89,8 +89,10 @@ En el bloque ***HIL Read TimeBase*** se encuentra por defecto el sensor de corri
 <img src="Arranque.png" alt="Arranque" width="500">
 Figura 5. Arranque y lectura de sensores - Qube 2
 
+
 2.2 Alertas a tener en cuenta
-El bloque ***HIL Read Timebase*** incluye alertas críticas relacionadas con el funcionamiento del sistema de control en tiempo real. Entre ellas, *Amplifier Fault* señala un fallo en el amplificador de potencia, que puede deberse a sobrecalentamiento o problemas eléctricos; *Motor Stall Detected* indica que el motor se ha detenido abruptamente, generalmente por sobrecarga o bloqueo mecánico; y *Motor Stall Error* refleja un error persistente, a menudo vinculado a configuraciones incorrectas o fallos en los sensores. 
+
+El bloque ***HIL Read Timebase*** incluye alertas críticas relacionadas con el funcionamiento del sistema de control en tiempo real. Entre ellas, *Amplifier Fault* señala un fallo en el amplificador de potencia, que puede deberse a sobrecalentamiento o problemas eléctricos; *Motor Stall Detected* indica que el motor se ha detenido abruptamente, generalmente por sobrecarga o bloqueo mecánico; y *Motor Stall Error* refleja un error persistente, a menudo vinculado a configuraciones incorrectas o fallos en los sensores, provocando el detenimiento del sistema y generando un analisis de errores. 
 
 
 
