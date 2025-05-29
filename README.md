@@ -16,9 +16,17 @@ Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan 
 ### Qube 2 - Motor DC
 Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Con este sistema se puede validar algoritmos de control clásicos y avanzados, como PID, control por retroalimentación de estadoso o adaptativo. 
 
-![Figura 1]()
-
+<img src="Qube_2.png" alt="Qube_2" width="500">
 Figura 1. Gemelo Digital - Qube 2 Motor DC
+
+### Aero
+Es un banco ee pruebas aerodinámico educativo que replica los principios fundamentales del control de vuelo en un sistema compacto. Es un sistema de 2 grados de libertad (Pitch and Yaw), permitiendo experimentar con algoritmos de control de aeronaves, desde técnicas básicas como PID hasta métodos avanzados de control multivariable. Se integran hélices independientes, sensores  de alta precisión y capacidad para simular peturbaciones.
+
+<img src="Aero.png" alt="Aero" width="500">
+Figura 2. Gemelo Digital - Aero
+
+
+### Ball and Beam
 
 
 
