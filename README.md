@@ -86,11 +86,19 @@ Para leer y visualizar las señales de corriente (A), velocidad (counts/s) y pos
 2.1. Activación de sensores
 En el bloque ***HIL Read TimeBase*** se encuentra por defecto el sensor de corriente activo (*Analog channels*). Si se desea visualizar el encoder este puede activarse en *Encoder channels*, cabe recodar que Qube servo 2 cuenta con 2 encoders, depende de la necesidad si se requiere usar uno o los 2 encoders incorporados y si se desea visualizar la velocidad se debe activar en *Other channels*, en este apartado se encuentra el *Tacometro*.
 
-<img src="Ball.png" alt="Ball.png" width="500">
+<img src="Arranque.png" alt="Arranque" width="500">
 Figura 5. Arranque y lectura de sensores - Qube 2
 
+2.2 Alertas a tener en cuenta
+El bloque ***HIL Read Timebase*** incluye alertas críticas relacionadas con el funcionamiento del sistema de control en tiempo real. Entre ellas, *Amplifier Fault* señala un fallo en el amplificador de potencia, que puede deberse a sobrecalentamiento o problemas eléctricos; *Motor Stall Detected* indica que el motor se ha detenido abruptamente, generalmente por sobrecarga o bloqueo mecánico; y *Motor Stall Error* refleja un error persistente, a menudo vinculado a configuraciones incorrectas o fallos en los sensores. 
 
 
+
+
+# Conclusiones
+
+
+2. Las alertas precentes en el *HIL Read Timebase* requieren atención inmediata para evitar daños al equipo o riesgos operativos, por lo que se recomienda verificar conexiones, reducir cargas y revisar parámetros del controlador según corresponda.
 
 
 
