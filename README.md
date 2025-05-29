@@ -13,24 +13,28 @@ Los gemelos digitales de Quanser representan un puente innovador entre la teorí
 ## Gemelos Digitales.
 Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan sistemas como el Qube 2 - Motor DC, el módulo Aero y el Ball and Beam. Cada uno de estos equipos está especializado en un área particular de la ingeniería de control, combinando funcionalidad avanzada con una interfaz de operación intuitiva que facilita el proceso de enseñanza-aprendizaje.
 
+<img src="Gemelos.png" alt="Gemelos" width="650">
+Figura 1. Gemelos Digitales
+
+
 ### Qube 2 - Motor DC
 Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Con este sistema se puede validar algoritmos de control clásicos y avanzados, como PID, control por retroalimentación de estadoso o adaptativo. 
 
 <img src="Qube_2.png" alt="Qube_2" width="500">
-Figura 1. Gemelo Digital - Qube 2 Motor DC
+Figura 2. Gemelo Digital - Qube 2 Motor DC
 
 ### Aero
 Es un banco ee pruebas aerodinámico educativo que replica los principios fundamentales del control de vuelo en un sistema compacto. Es un sistema de 2 grados de libertad (Pitch and Yaw), permitiendo experimentar con algoritmos de control de aeronaves, desde técnicas básicas como PID hasta métodos avanzados de control multivariable. Se integran hélices independientes, sensores  de alta precisión y capacidad para simular peturbaciones.
 
 <img src="Aero.png" alt="Aero" width="500">
-Figura 2. Gemelo Digital - Aero
+Figura 3. Gemelo Digital - Aero
 
 
 ### Ball and Beam
 Es una plataforma educativa fundamental para el estudio práctico de control de sistemas dinámicos no lineales. Este sistema esta conformado por una barra móvil y una esfera rodante, desafía a los estudiantes a desarrollar algoritmos de control que mantengan la bola en posiciones especificas mediante el ajuste preciso del ángulo de la barra. Permite la implementación de sistemas de control PID clasicos y técnicas avanzadas como retroalimentación de estados.
 
 <img src="Ball.png" alt="Ball.png" width="500">
-Figura 3. Gemelo Digital -  Ball and Beam
+Figura 4. Gemelo Digital -  Ball and Beam
 
 
 ## Inicialización Quanser y Simulink
