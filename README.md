@@ -61,17 +61,14 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 ### 1.1 Conexión Simulink y Quanser
 1. **Crea un nuevo modelo vacío en Simulink.**
 
-2. **Acceso a librerías** 
-- Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
+2. **Acceso a librerías:** Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
 
-3. **Localización de componentes QUARC**
-- QUARC Targets → Data Acquisition → Generic → Configuration
+3. **Localización de componentes QUARC:**
+   QUARC Targets → Data Acquisition → Generic → Configuration
 
-4. **Inserción del bloque**
-- Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
+4. **Inserción del bloque:** Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
 
-5. **Configuración inicial**
-- Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
+5. **Configuración inicial:** Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
 
 - Selecciona qube_servo2_usb en Board type
 - Presiona Defaults para cargar configuraciones predeterminadas
