@@ -33,7 +33,7 @@ Es una plataforma educativa fundamental para el estudio práctico de control de 
 Figura 3. Gemelo Digital -  Ball and Beam
 
 
-
+## Inicialización Quanser y Simulink
 
 
 
