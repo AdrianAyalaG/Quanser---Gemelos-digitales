@@ -17,20 +17,20 @@ Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan 
 Figura 1. Gemelos Digitales
 
 
-### Qube 2 - Motor DC
+### 1. Qube 2 - Motor DC
 Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Con este sistema se puede validar algoritmos de control clásicos y avanzados, como PID, control por retroalimentación de estadoso o adaptativo. 
 
 <img src="Qube_2.png" alt="Qube_2" width="500">
 Figura 2. Gemelo Digital - Qube 2 Motor DC
 
-### Aero
+### 2. Aero
 Es un banco ee pruebas aerodinámico educativo que replica los principios fundamentales del control de vuelo en un sistema compacto. Es un sistema de 2 grados de libertad (Pitch and Yaw), permitiendo experimentar con algoritmos de control de aeronaves, desde técnicas básicas como PID hasta métodos avanzados de control multivariable. Se integran hélices independientes, sensores  de alta precisión y capacidad para simular peturbaciones.
 
 <img src="Aero.png" alt="Aero" width="500">
 Figura 3. Gemelo Digital - Aero
 
 
-### Ball and Beam
+### 3. Ball and Beam
 Es una plataforma educativa fundamental para el estudio práctico de control de sistemas dinámicos no lineales. Este sistema esta conformado por una barra móvil y una esfera rodante, desafía a los estudiantes a desarrollar algoritmos de control que mantengan la bola en posiciones especificas mediante el ajuste preciso del ángulo de la barra. Permite la implementación de sistemas de control PID clasicos y técnicas avanzadas como retroalimentación de estados.
 
 <img src="Ball.png" alt="Ball.png" width="500">
@@ -40,7 +40,16 @@ Figura 4. Gemelo Digital -  Ball and Beam
 ### Informacion Importante
 Quanser incluye manuales de usuario detallados con cada equipo adquirido. En este caso, hemos analizado específicamente el manual del Qube-Servo 3, ya que será nuestro sistema de trabajo tanto en su versión física como digital. Es importante destacar que el gemelo digital utilizado corresponde al Qube-Servo 2, cuya principal diferencia con el modelo físico radica en la ausencia del péndulo invertido. Sin embargo, esta limitación se resuelve fácilmente mediante el montaje virtual del péndulo en Simulink Multibody, lo que permite replicar todas las funcionalidades del sistema físico en el entorno de simulación.
 
+A continuación se detallan los parámetros que se medirán durante las próximas prácticas, los cuales han sido seleccionados por su relevancia en el experimento.
 
+| **Caracteristicas** | **Valores** |
+|---------------|-----------------------------------------------|
+|       Nominal Input Voltaje       |                       18 V                       |
+|       Nominal Torque      |                       22.0 Nm                       |
+|      Nominal Speed      |                       3050 RPM                       |
+|      Nominal Current      |                      0.540 A                     |
+
+Tabla 1. Parametros - Qube-Servo 3
 
 
 ## Inicialización Quanser y Simulink
