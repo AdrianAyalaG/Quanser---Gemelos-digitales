@@ -98,7 +98,7 @@ Figura 6. Alertas criticas - Qube 2
 
 
 ## 💡Ejemplo:
-A continuación se desarrolla un lazo de control abierto mediante el método Cascada y de Austin. Para realizar el control cascada del Qube 2 Motor DC se realiza la identificación de la planta, empleando los métodos de identificación usados a lo largo del curso, dando como resultado las siguientes funciones de transferencia:
+A continuación se desarrolla un lazo de control abierto mediante el método Cascada y de Austin. Para realizar el control cascada del Qube 2 Motor DC se realiza la identificación de la planta, empleando los métodos de identificación usados a lo largo del curso. Para el caso de la corriente se realiza la sintonización PI por ITAE, mientras que para la velocidad y posición se emplean la sintonización PI por Austin, dando como resultado las siguientes funciones de transferencia:
 - Función de Transferencia - Corriente
   
 $$G_{2} = \frac{0.008852e^{-0.0028s}}{0.0003s + 1}$$
@@ -112,7 +112,11 @@ $$G_{2} = \frac{7268e^{-0.0035s}}{0.1245 + 1}$$
   
 $$G_{2} = \frac{7268e^{-0.0035s}}{0.1245^2 + s}$$
 
-Una vez identificada la planta se realiza el método de ITAE
+Una vez se obtienen la funciones de transferencia se procede a comparar la función resultante con la salida del sistema, como se observa a continuación.
+
+
+
+
 
 
 
