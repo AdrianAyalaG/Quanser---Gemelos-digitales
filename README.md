@@ -29,7 +29,7 @@ Figura 2. Gemelo Digital - Aero
 ### Ball and Beam
 Es una plataforma educativa fundamental para el estudio práctico de control de sistemas dinámicos no lineales. Este sistema esta conformado por una barra móvil y una esfera rodante, desafía a los estudiantes a desarrollar algoritmos de control que mantengan la bola en posiciones especificas mediante el ajuste preciso del ángulo de la barra. Permite la implementación de sistemas de control PID clasicos y técnicas avanzadas como retroalimentación de estados.
 
-<img src=" Ball.png" alt="Ball.png" width="500">
+<img src="Ball.png" alt="Ball.png" width="500">
 Figura 3. Gemelo Digital -  Ball and Beam
 
 
