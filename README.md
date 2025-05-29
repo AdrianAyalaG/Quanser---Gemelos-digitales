@@ -136,10 +136,10 @@ Figura 10. Función de transferencia - Posición
 
 # Conclusiones
 
+1. El empleo de gemelos digitales en los sistemas de Quanser marca un avance importante en los ámbitos de la educación, la investigación y el diseño de sistemas de control. Estos modelos virtuales reproducen con gran precisión el comportamiento de los equipos físicos, lo que permite realizar simulaciones y pruebas en un entorno seguro y rentable. Esto facilita la validación de algoritmos sin necesidad de utilizar hardware real, favoreciendo así el aprendizaje práctico y la experimentación. En definitiva, los gemelos digitales de Quanser mejoran tanto la enseñanza como el desarrollo tecnológico, al permitir un trabajo más eficiente e innovador en ingeniería mecatrónica.
 
-2. Las alertas precentes en el *HIL Read Timebase* requieren atención inmediata para evitar daños al equipo o riesgos operativos, por lo que se recomienda verificar conexiones, reducir cargas y revisar parámetros del controlador según corresponda.
 
-
+2. Los gemelos digitales de Quanser brindan una plataforma segura y eficaz para diseñar y probar sistemas de control sin poner en riesgo los equipos reales. No obstante, es crucial atender con prontitud las alertas emitidas por el HIL Read Timebase, ya que podrían señalar fallos que comprometen la seguridad del sistema o la integridad del hardware. Para evitar incidentes, se recomienda revisar regularmente las conexiones, moderar las cargas aplicadas y ajustar los parámetros del controlador según sea necesario, asegurando así un desempeño confiable tanto en entornos virtuales como físicos.
 
 
 ## Referencias
