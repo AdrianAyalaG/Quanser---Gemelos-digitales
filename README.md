@@ -11,10 +11,15 @@ Los gemelos digitales de Quanser representan un puente innovador entre la teorí
 
 
 ## Gemelos Digitales.
-Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan sistemas como el Qube-Servo 3, el módulo Aero y el Ball and Beam. Cada uno de estos equipos está especializado en un área particular de la ingeniería de control, combinando funcionalidad avanzada con una interfaz de operación intuitiva que facilita el proceso de enseñanza-aprendizaje.
+Quanser ofrece una amplia gama de soluciones educativas, entre las que destacan sistemas como el Qube 2 - Motor DC, el módulo Aero y el Ball and Beam. Cada uno de estos equipos está especializado en un área particular de la ingeniería de control, combinando funcionalidad avanzada con una interfaz de operación intuitiva que facilita el proceso de enseñanza-aprendizaje.
 
-### Qube-Servo 3
-Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Su diseño modular 
+### Qube 2 - Motor DC
+Es una plataforma educativa diseñada para le estudio práctico de sistemas de control y mecatrónico. Este sistema es integrado por un motor DC de precisión con sensores de alta resolución, permitiendo experimentar con control de posición, velocidad, corriente y dinámica rotacional. Con este sistema se puede validar algoritmos de control clásicos y avanzados, como PID, control por retroalimentación de estadoso o adaptativo. 
+
+![Complemento QUARC matlab](
+
+*Figura 1: Complemento Quanser interactive labs para gemelos digitales*
+
 
 
 
