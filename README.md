@@ -58,17 +58,17 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 
 ## Inicialización Quanser y Simulink
 
-### 1.1 Conexión Simulink y Quanser
-1. **Crea un nuevo modelo vacío en Simulink.**
+### 1 Conexión Simulink y Quanser
+1.1. **Crea un nuevo modelo vacío en Simulink.**
 
-2. **Acceso a librerías:** Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
+1.2. **Acceso a librerías:** Abre el explorador de bibliotecas de Simulink (Simulink Library Browser) seleccionando su icono en la barra de herramientas.
 
-3. **Localización de componentes QUARC:**
+1.3. **Localización de componentes QUARC:**
    QUARC Targets → Data Acquisition → Generic → Configuration
 
-4. **Inserción del bloque:** Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
+1.4. **Inserción del bloque:** Selecciona y arrastra el componente HIL Initialize a tu espacio de trabajo en Simulink.
 
-5. **Configuración inicial:** Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
+1.5. **Configuración inicial:** Abre las propiedades del bloque con doble clic y ajusta los siguientes parámetros en la pestaña Main:
 
 - Selecciona qube_servo2_usb en Board type
 - Presiona Defaults para cargar configuraciones predeterminadas
@@ -76,11 +76,20 @@ Quanser ofrece tres alternativas de conexión para sus sistemas, adaptándose a 
 - Activa la casilla **Active during normal simulation**
 - Confirma con **OK**
 
-6. Accede a Model Settings (Ctrl + E) y selecciona un solver de paso fijo (Fixed-step). Ajusta el tiempo de muestreo a 0.001 segundos (1 ms) y configura el modelo en modo discreto. Esta configuración es necesaria porque los bloques de Quanser requieren un sistema de tiempo discreto para su correcto funcionamiento, garantizando alta precisión temporal y un rendimiento óptimo.
+1.6. Accede a Model Settings (Ctrl + E) y selecciona un solver de paso fijo (Fixed-step). Ajusta el tiempo de muestreo a 0.001 segundos (1 ms) y configura el modelo en modo discreto. Esta configuración es necesaria porque los bloques de Quanser requieren un sistema de tiempo discreto para su correcto funcionamiento, garantizando alta precisión temporal y un rendimiento óptimo.
 
 
-### 1.2 Arranque de motor y lectura de sensores
+### 2. Arranque de motor y lectura de sensores
 Para leer y visualizar las señales de corriente (A), velocidad (counts/s) y posición (pulsos), se debe utilizar el bloque ***HIL Read TimeBase***. Por otro lado, el arranque del motor puede controlarse mediante distintas señales de entrada, como rampa, escalón o constante, las cuales deben conectarse al bloque ***HIL Write Analog***. Una vez seleccionado este bloque, es necesario configurarlo especificando la placa de hardware a la que se vinculará el gemelo digital.
+
+
+2.1. Activación de sensores
+En el bloque ***HIL Read TimeBase*** se encuentra por defecto el sensor de corriente activo (*Analog channels*). Si se desea visualizar el encoder este puede activarse en *Encoder channels*, cabe recodar que Qube servo 2 cuenta con 2 encoders, depende de la necesidad si se requiere usar uno o los 2 encoders incorporados y si se desea visualizar la velocidad se debe activar en *Other channels*, en este apartado se encuentra el *Tacometro*.
+
+<img src="Ball.png" alt="Ball.png" width="500">
+Figura 5. Arranque y lectura de sensores - Qube 2
+
+
 
 
 
