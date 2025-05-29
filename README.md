@@ -114,6 +114,20 @@ $$G_{2} = \frac{7268e^{-0.0035s}}{0.1245^2 + s}$$
 
 Una vez se obtienen la funciones de transferencia se procede a comparar la función resultante con la salida del sistema, como se observa a continuación.
 
+<img src="sf_Current.png" alt="Corriente" width="450">
+Figura 7. Identificación de la planta
+
+<img src="sf_Current.png" alt="Corriente" width="450">
+Figura 8. Función de transferencia - Corriente
+
+
+<img src="sf_Speed.png" alt="Velocidad" width="450">
+Figura 9. Función de transferencia - Velocidad
+
+
+<img src="sf_Position.png" alt="Posicion" width="450">
+Figura 10. Función de transferencia - Posición
+
 
 
 
