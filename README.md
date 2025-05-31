@@ -103,14 +103,14 @@ A continuación se desarrolla un lazo de control abierto mediante el método Cas
   
 $$G_{2} = \frac{0.008852e^{-0.0028s}}{0.0003s + 1}$$
 
-- Función de Transferencia - Velocdidad
+- Función de Transferencia - Velocidad
   
-$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245 + 1}$$
+$$G_{1} = \frac{7268e^{-0.0035s}}{0.1245 + 1}$$
 
 
 - Función de Transferencia - Posición
   
-$$G_{2} = \frac{7268e^{-0.0035s}}{0.1245s^2 + s}$$
+$$G_{3} = \frac{7268e^{-0.0035s}}{0.1245s^2 + s}$$
 
 Una vez se obtienen la funciones de transferencia se procede a comparar la función resultante con la salida del sistema, como se observa a continuación.
 
